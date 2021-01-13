@@ -1,0 +1,20 @@
+{
+  "handlers": ["common"],
+  "pages": [{
+    "url": "/",
+    "template": "index.hbs",
+    "content": {
+      "title": "Main Page",
+      "content": "Rave rave Rave"
+    }
+  },
+  {
+    "url": "/inner",
+    "template": "inner.hbs",
+    "handler": "inner",
+    "content": {
+      "title": "Inner page",
+      "content": "inner page inner page content"
+    }
+  }]
+}
